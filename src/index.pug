@@ -5,11 +5,31 @@ html
 		meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
 		link(rel="stylesheet" type="text/css" href="css/reset.css")
 		link(rel="stylesheet" type="text/css" href="css/style.css")
+		link(rel="stylesheet" type="text/css" href="css/animate.css")
 		title Cabal
 	body
-		.modal
-			Hola mundo
-		//-.client
+		.dialog
+			.dialog__container
+				.dialog__media(class="animated infinite bounce slower")
+					img(src="img/botsy-crash.svg")
+				h1 Plop!
+				p There was an error while trying to sync your Cabal
+				.dialog__link
+					a(href="#") Retry
+		.dialog
+			.dialog__container
+				h1 Syncing
+				p Fetching new messages…
+		.dialog
+			.dialog__container
+				.dialog__media(class="animated infinite swing slower")
+					img(src="img/botsy-experimental.svg")
+				h1 Beep!
+				p
+					| This is a work in progress, which is being constantly improved. Things might break.
+				.dialog__link
+					a(href="#") Got it
+		.client
 			.client__cabals
 				.switcher
 					.switcher__item.switcher__item--active
@@ -285,7 +305,7 @@ html
 									p.text Can I update screenshots in App Store Connect (ASC) for an app while it’s waiting for review, or are they locked as soon as I submit?
 									p.text I can’t seem to find anything in the docs. I have everything for a client app ready, but have some problems with one of the screenshots and can’t seem to get any response from the client now.
 									p.text Lmao thanks anyways
-					.composerContainer
+					.window__footer
 						.composer
 							.composer__meta
 								img(src="img/icon-composermeta.svg")

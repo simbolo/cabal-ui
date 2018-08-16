@@ -1,0 +1,41 @@
+/* Full screen dialog */
+.dialog
+	display: flex
+	align-items: center
+	justify-content: center
+	position: absolute
+	top: 0
+	right: 0
+	left: 0
+	bottom: 0
+	background-color: rgba(255,255,255,1)
+	z-index: 100
+
+/* Dialog container */
+.dialog__container
+	width: 20rem
+	margin: 2rem
+	text-align: center
+
+/* Dialog media */
+.dialog__container .dialog__media
+	margin-bottom: 1.5rem
+/* Dialog styles */
+.dialog__container img
+.dialog__container h1
+	font-size: 2.25rem
+	font-weight: bold
+	margin-bottom: 0.5rem
+.dialog__container p
+	font-size: 1.25rem
+	line-height: 1.4
+	color: rgba(0,0,0,0.5)
+.dialog__container .dialog__link
+	font-size: 1.25rem
+	color: #693afa
+	margin-top: 2rem
+.dialog__container .dialog__link a
+	text-decoration: none
+	transition: all 0.05s ease-in-out
+.dialog__container .dialog__link a:visited
+	color: inherit

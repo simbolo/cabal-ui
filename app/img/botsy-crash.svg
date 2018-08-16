@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115" height="82" viewBox="0 0 115 82">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="90" height="66" x="12" y="16" fill="#000" rx="27"/>
+        <rect width="26" height="26" y="36" fill="#000" rx="10"/>
+        <rect width="26" height="26" x="89" y="36" fill="#000" rx="10"/>
+        <rect width="16" height="28" x="49" fill="#000" rx="8"/>
+        <g transform="rotate(10 -266.611 211.166)">
+            <rect width="53" height="14" fill="#FFF" rx="7"/>
+            <g fill="#D8D8D8" stroke="#979797">
+                <path d="M5.5.5h1v13h-1zM13.5.5h1v13h-1zM21.5.5h1v13h-1zM29.5.5h1v13h-1zM37.5.5h1v13h-1zM45.5.5h1v13h-1z"/>
+            </g>
+        </g>
+        <g fill="#FFF">
+            <g transform="translate(36 28)">
+                <rect width="7" height="20" x="7" rx="3.5" transform="rotate(-45 10.5 10)"/>
+                <rect width="7" height="20" x="7" rx="3.5" transform="rotate(45 10.5 10)"/>
+            </g>
+            <g transform="translate(57 28)">
+                <rect width="7" height="20" x="7" rx="3.5" transform="rotate(-45 10.5 10)"/>
+                <rect width="7" height="20" x="7" rx="3.5" transform="rotate(45 10.5 10)"/>
+            </g>
+        </g>
+    </g>
+</svg>
